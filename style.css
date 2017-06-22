@@ -1,25 +1,46 @@
+
+
 body{
 	background-color: #00cecb;
 background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox='0 0 44 12' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 12v-2L0 0v10l4 2h16zm18 0l4-2V0L22 10v2h16zM20 0v8L4 0h16zm18 0L22 8V0h16z' fill='%23a9e5bb' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+	background-attachment: fixed;
 }
 
 #content {
   margin: 100%;
 }
 
+.navbar{
+	background-color: #1e262c;
+	border:none;
+}
+
 .jumbotron{
     margin-bottom: 0px;
+    background-position: 25%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-left: 2em;
     padding-right: 2em;
     padding-top: 4em;
+    background-color: #30363D;
+    font-color: #fff;
+    color: #ffffff !important;
+}
+
+.thumbnail{
+	margin:0em 4em 0em 4em;
+}
+
+#introtext{
+	letter-spacing: 1px;
 }
 
 #projects{
 	margin-top: 12em;
 	background-color: #ffffff;
+	padding: 0em 2em 2em 2em;
 }
 
 #resume{
@@ -37,7 +58,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='44' height='12' viewBox=
 	padding-right: 2em;
 }
 
-h4{
+h4, #projects h5{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 32px;
 	text-transform: uppercase;
@@ -62,6 +83,29 @@ p{
 	font-size: 18px;
 }
 
+dt{
+	font-size: 18px;
+
+}
+
+dd{
+	font-size: 16px;
+	padding:4px;
+	letter-spacing: 1px;
+	font-family: 'Heebo', sans-serif;
+}
+
+.border{
+	border-bottom: #ff5e5b solid 3px;
+}
+
+.righttab{
+	padding-left: 4em;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-family: 'Heebo', sans-serif;
+}
+
 #projects p{
 	font-size: 14px;
 	letter-spacing: 2px;
@@ -77,5 +121,29 @@ p{
 	font-size: 18px;
 	text-transform: none;
 	font-family: 'Heebo', sans-serif;
+	letter-spacing: 1px;
+}
+
+#contact{
+	color: #fff !important;
+	background-color: #30363D;
+	padding: 2em 4em 3em 3em;
+	margin-top:10em;
+}
+
+#footer{
+	color: #fff !important;
+	background-color: #1e262c;
+	padding: 1em;
+}
+
+.fa{
+	font-size: 3em !important;
+	margin: 0px 10px 0px 10px;
+	color:  #a2e5dd;
+}
+
+#footer p{
+	font-size: 12px;
 	letter-spacing: 1px;
 }
