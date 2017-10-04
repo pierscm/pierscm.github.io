@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/blog"
-url: "https://pierscm.github.io/"
+baseurl: ""
+url: "blog"
 
 
 # THEME-SPECIFIC CONFIGURATION
