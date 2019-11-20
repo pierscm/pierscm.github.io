@@ -228,3 +228,5 @@ dd{
 	font-size: 12px;
 	letter-spacing: 1px;
 }
+
+.dl-horizontal dt { text-align: left; }
